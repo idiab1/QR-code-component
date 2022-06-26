@@ -12,6 +12,7 @@ body{
     font-size: 15px;
     background-color: var(--grayish-blue);
 }
+
 .container{
     width: 1124px;
     display: flex;
@@ -48,4 +49,18 @@ body{
 .card .card-body p{
     color: var(--grayish-blue);
 
+}
+
+/* Mobile screen */
+@media (max-width: 375px){
+    .container{
+        width: unset;
+    }
+}
+
+/* Mobile screen */
+@media (min-width: 374px) and (max-width: 1440px){
+    .container{
+        width: unset;
+    }
 }
