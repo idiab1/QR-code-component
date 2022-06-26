@@ -10,7 +10,7 @@
 body{
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-    background-color: var(--grayish-blue);
+    background-color: var(--light-color);
 }
 
 .container{
@@ -30,7 +30,7 @@ body{
 .card {
     display: flex;
     flex-direction: column;
-    width: 230px;
+    width: 250px;
     border-radius: 15px;
     padding: 1rem;
     background-color: var(--white-color);
@@ -45,6 +45,9 @@ body{
 
 .card .card-body{
     text-align: center;
+}
+.card .card-body h3{
+    font-size: 1.23rem;
 }
 .card .card-body p{
     color: var(--grayish-blue);
