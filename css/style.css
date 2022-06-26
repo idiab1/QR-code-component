@@ -30,7 +30,7 @@ body{
 .card {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 280px;
     border-radius: 15px;
     padding: 1rem;
     background-color: var(--white-color);
